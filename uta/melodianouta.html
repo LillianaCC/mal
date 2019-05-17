@@ -207,7 +207,7 @@
     <div class="vidframe">
       <a title="tsugi-e!"><div id="vid-btntoux" class="vid-btntoux"> &nbsp; x</div></a>
 
-      <iframe id="vid-b1" width="560" height="315" src="http://www.youtube.com/embed/BSCfJHz47nA" frameborder="0"
+      <iframe id="vid-b1" width="560" height="315" src="https://www.youtube.com/embed/BSCfJHz47nA" frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <iframe id="vid-b2" width="560" height="315" src="https://www.youtube.com/embed/GvaC6cIrntI" frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -318,6 +318,34 @@ function showIt(form) {
     $(".pop-content-links").removeClass("hide-pop-content-links");
 });
 
+
+      </script>
+
+      <script>
+
+      window.onYouTubeIframeAPIReady = function () {
+    var video = {
+        player: null,
+        create: function () {
+            // first destroy if we already have the player
+            if (video.player) { video.player.destroy(); }
+            // create the player
+            video.player = new YT.Player('ytp', {
+                videoId: '9u_hp7zPir0',
+                width: '620',
+                height: '290',
+                events: {
+                    'onStateChange': video.onStateChange
+                }
+            });
+        },
+        onStateChange: function (event) {
+            // YT.PlayerState.ENDED » exiting full screen
+            if (event.data === 0) { video.create(); }
+        }
+    };
+    video.create();
+};
 
       </script>
 

@@ -875,4 +875,5 @@ center {
   opacity: 0;
   transition: 1.2s;
   position: absolute;
+  z-index: 100;
 }
