@@ -10,6 +10,10 @@ center {
     text-align: -webkit-center;
 }
 
+input {
+  font-size: 80%;
+}
+
 .videocontainer {
   width: calc(50% - 8px);
   height: calc(100% - 8px);
@@ -157,6 +161,10 @@ center {
     color: #666;
 }
 
+#sad {
+  font-size: 9px;
+}
+
 .tou-txt-light {
     font-size: 9px;
     letter-spacing: 1px;
@@ -190,7 +198,7 @@ center {
 }
 
 #coin img {
-  padding: 30px;
+  padding: 28px;
   /* position: absolute; */
   width: 25px;
   -webkit-animation-play-state:paused;
@@ -311,6 +319,11 @@ center {
   transition: 1.2s;
 }
 
+#b2.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b3 svg {
   position: absolute;
   width: 11px;
@@ -324,6 +337,11 @@ center {
 #b3.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b3.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b4 svg {
@@ -341,6 +359,11 @@ center {
   transition: 1.2s;
 }
 
+#b4.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b5 svg {
   position: absolute;
   width: 11px;
@@ -354,6 +377,11 @@ center {
 #b5.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b5.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b6 svg {
@@ -371,6 +399,11 @@ center {
   transition: 1.2s;
 }
 
+#b6.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b7 svg {
   position: absolute;
   width: 11px;
@@ -384,6 +417,11 @@ center {
 #b7.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b7.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b8 svg {
@@ -401,6 +439,11 @@ center {
   transition: 1.2s;
 }
 
+#b8.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b9 svg {
   position: absolute;
   width: 11px;
@@ -414,6 +457,11 @@ center {
 #b9.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b9.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b10 svg {
@@ -431,6 +479,11 @@ center {
   transition: 1.2s;
 }
 
+#b10.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b11 svg {
   position: absolute;
   width: 11px;
@@ -444,6 +497,11 @@ center {
 #b11.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b11.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b12 svg {
@@ -461,6 +519,11 @@ center {
   transition: 1.2s;
 }
 
+#b12.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b13 svg {
   position: absolute;
   width: 11px;
@@ -474,6 +537,11 @@ center {
 #b13.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b13.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b14 svg {
@@ -491,6 +559,11 @@ center {
   transition: 1.2s;
 }
 
+#b14.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b15 svg {
   position: absolute;
   width: 11px;
@@ -504,6 +577,11 @@ center {
 #b15.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b15.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b16 svg {
@@ -521,6 +599,11 @@ center {
   transition: 1.2s;
 }
 
+#b16.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b17 svg {
   position: absolute;
   width: 11px;
@@ -534,6 +617,11 @@ center {
 #b17.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b17.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b18 svg {
@@ -551,6 +639,11 @@ center {
   transition: 1.2s;
 }
 
+#b18.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b19 svg {
   position: absolute;
   width: 11px;
@@ -564,6 +657,11 @@ center {
 #b19.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b19.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b20 svg {
@@ -581,6 +679,11 @@ center {
   transition: 1.2s;
 }
 
+#b20.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b21 svg {
   position: absolute;
   width: 11px;
@@ -594,6 +697,11 @@ center {
 #b21.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b21.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b22 svg {
@@ -611,6 +719,11 @@ center {
   transition: 1.2s;
 }
 
+#b22.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b23 svg {
   position: absolute;
   width: 11px;
@@ -624,6 +737,11 @@ center {
 #b23.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b23.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b24 svg {
@@ -641,6 +759,11 @@ center {
   transition: 1.2s;
 }
 
+#b24.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b25 svg {
   position: absolute;
   width: 11px;
@@ -654,6 +777,11 @@ center {
 #b25.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b25.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b26 svg {
@@ -671,6 +799,11 @@ center {
   transition: 1.2s;
 }
 
+#b26.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b27 svg {
   position: absolute;
   width: 11px;
@@ -684,6 +817,11 @@ center {
 #b27.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b27.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b28 svg {
@@ -701,6 +839,11 @@ center {
   transition: 1.2s;
 }
 
+#b28.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b29 svg {
   position: absolute;
   width: 11px;
@@ -716,6 +859,11 @@ center {
   transition: 1.2s;
 }
 
+#b29.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b30 svg {
   position: absolute;
   width: 11px;
@@ -729,6 +877,11 @@ center {
 #b30.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b30.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b31 svg {
@@ -761,6 +914,11 @@ center {
   transition: 1.2s;
 }
 
+#b32.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b33 svg {
   position: absolute;
   width: 11px;
@@ -774,6 +932,11 @@ center {
 #b33.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b33.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b34 svg {
@@ -791,6 +954,11 @@ center {
   transition: 1.2s;
 }
 
+#b34.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 #b35 svg {
   position: absolute;
   width: 11px;
@@ -804,6 +972,11 @@ center {
 #b35.active svg {
   fill: red;
   transition: 1.2s;
+}
+
+#b35.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
 }
 
 #b36 svg {
@@ -821,6 +994,11 @@ center {
   transition: 1.2s;
 }
 
+#b36.active svg:hover {
+  fill: #FF9D9D;
+  transition: .2s;
+}
+
 .vidframe {
   width: 560px;
   height: 315px;
@@ -830,9 +1008,41 @@ center {
   position: absolute;
   top: 55px;
   left: 913px;
-  z-index: 3;
+  z-index: 5;
   padding: 25px;
+  /* opacity: .4; */
+  animation: show 3s linear 518s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
+
+@keyframes show {
+  0% { opacity: 1; }
+  50% { opacity: .6; transition: .3s}
+  100% { opacity: 1;}
+}
+
+  .hidden-texuto {
+    width: 560px;
+    height: 315px;
+    margin-right: 8px;
+    /* background-color: black; */
+    cursor: none;
+    position: absolute;
+    top: 55px;
+    left: 913px;
+    z-index: 3;
+    font-size: 13pt;
+    padding: 15px;
+  }
+
+  #ani-prev img {
+    transform: scale(0.1,.1);
+    position: fixed;
+    top: -750px;
+    left: -930px;
+    /* opacity: 0; */
+  }
 
 .vid-btntoux {
     font-family: consolas, consola;
@@ -854,26 +1064,453 @@ center {
 
 .vid-btntoux:hover { color: red; }
 
-#vid-b1, #vid-b2,
-#vid-b3, #vid-b4,
-#vid-b5, #vid-b6,
-#vid-b7, #vid-b8,
-#vid-b9, #vid-b10,
-#vid-b11, #vid-b12,
-#vid-b13, #vid-b14,
-#vid-b15, #vid-b16,
-#vid-b17, #vid-b18,
-#vid-b19, #vid-b20,
-#vid-b21, #vid-b22,
-#vid-b23, #vid-b24,
-#vid-b25, #vid-b26,
-#vid-b27, #vid-b28,
-#vid-b29, #vid-b30,
-#vid-b31, #vid-b32,
-#vid-b33, #vid-b34,
-#vid-b35, #vid-b36 {
+#vid-b1 {
   opacity: 0;
   transition: 1.2s;
   position: absolute;
-  z-index: 100;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b1.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+} #vid-b2 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b2.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b3 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b3.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b4 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b4.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b5 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b5.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b6 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b6.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b7 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b7.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b8 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b8.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b9 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b9.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b10 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b10.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b11 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b11.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b12 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b12.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b13 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b13.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b14 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b14.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b15 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b15.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b16 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b16.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b17 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b17.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b18 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b18.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b19 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b19.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b20 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b20.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b21 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b21.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b22 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b22.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b23 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b23.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b24 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b24.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b25 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b25.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b26 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b26.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b27 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b27.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b28 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b28.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b29 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b29.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b30 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b30.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b31 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b31.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b32 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b32.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b33 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b33.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b34 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b34.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}
+#vid-b35 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b35.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
+}  #vid-b36 {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: -1;
+  /* visibility: hidden; */
+} #vid-b36.active {
+  opacity: 0;
+  transition: 1.2s;
+  position: absolute;
+  z-index: 9999;
+  /* visibility: hidden; */
 }
