@@ -284,10 +284,15 @@ cursor: pointer;
     cursor: pointer;
   }
 
-  .title-dummy {
+  .extras-title {
     font-size: 16pt;
     font-weight: bold;
-    color: white;
+    transition: 0.2s ease-in;
+  }
+
+  .extras-title:hover{
+    color: red;
+    cursor: pointer;
   }
 
   .row7{
