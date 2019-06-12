@@ -239,6 +239,76 @@ input {
               opacity: 0;} */
 }
 
+.poll {
+  z-index: 20;
+}
+
+.infowrap {
+  width: 20px;
+  height: 50px;
+  float: left;
+  position: fixed;
+  margin-top: 5vh;
+  left: 0px;
+}
+
+
+
+
+.infobox {
+position: absolute;
+top: 55px;
+bottom: -414px;
+left: 10px;
+right: -278px;
+background: white;
+border: 0.5px solid black;
+color: #000;
+visibility: hidden;
+opacity: 0;
+display: flex;
+align-items: center;
+/* text-align: center; */
+opacity: 0;
+justify-content: center;
+
+/* transition effect. not necessary */
+transition: opacity .2s, visibility .2s;
+}
+
+.infounowrap.active .infobox {
+/* visibility: visible; */
+opacity: 1;
+z-index: 1000;
+}
+
+.boxdescription {
+transition: .2s;
+transform: translateY(1em);
+font-size: 11px;
+font-weight: normal;
+margin-left: 3px;
+}
+
+.infounowrap.active .boxdescription {
+transform: translateY(0);
+}
+
+.infouno {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  transition: .6s;
+  align-items: flex-end;
+  padding-left: 5px;
+}
+
+
+
+
 #ref {
   position: absolute;
   width: 1345px;
@@ -256,7 +326,7 @@ input {
   left: -590px;;
   top: -203px;
   opacity: .4;
-  z-index: 3;
+  /* z-index: 3; */
 }
 
 #discs video {
@@ -265,7 +335,7 @@ input {
   left: -590px;;
   top: -203px;
   opacity: 1;
-  z-index: 5;
+  /* z-index: 5; */
 }
 
 #coinbutton svg{
@@ -329,7 +399,7 @@ input {
   width: 11px;
   top: 473px;
   left: 206px;
-  z-index: 2;
+  /* z-index: 2; */
   cursor: help;
   fill: white;
 }
@@ -349,7 +419,7 @@ input {
   width: 11px;
   top: 490px;
   left: 206px;
-  z-index: 2;
+  /* z-index: 2; */
   cursor: help;
   fill: white;
 }
@@ -369,7 +439,7 @@ input {
   width: 11px;
   top: 508px;
   left: 206px;
-  z-index: 2;
+  /* z-index: 2; */
   cursor: help;
   fill: white;
 }
@@ -389,7 +459,7 @@ input {
   width: 11px;
   top: 526px;
   left: 206px;
-  z-index: 2;
+  /* z-index: 2; */
   cursor: help;
   fill: white;
 }
@@ -409,7 +479,7 @@ input {
   width: 11px;
   top: 437px;
   left: 284px;
-  z-index: 2;
+  /* z-index: 2; */
   cursor: help;
   fill: white;
 }
@@ -429,7 +499,7 @@ input {
   width: 11px;
   top: 455px;
   left: 284px;
-  z-index: 2;
+  /* z-index: 2; */
   cursor: help;
   fill: white;
 }
@@ -449,7 +519,7 @@ input {
   width: 11px;
   top: 473px;
   left: 284px;
-  z-index: 2;
+  /* z-index: 2; */
   cursor: help;
   fill: white;
 }
@@ -469,7 +539,7 @@ input {
   width: 11px;
   top: 490px;
   left: 284px;
-  z-index: 2;
+  /* z-index: 2; */
   cursor: help;
   fill: white;
 }
@@ -489,7 +559,7 @@ input {
   width: 11px;
   top: 508px;
   left: 284px;
-  z-index: 2;
+  /* z-index: 2; */
   cursor: help;
   fill: white;
 }
@@ -509,7 +579,7 @@ input {
   width: 11px;
   top: 526px;
   left: 284px;
-  z-index: 2;
+  /* z-index: 2; */
   cursor: help;
   fill: white;
 }
